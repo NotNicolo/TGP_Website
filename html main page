@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TGP Programs Page</title>
+        <style>
+            body {background-image:url("programPageIMG/Background.png");}
+            
+            h2 {font-family:sans-serif; opacity:0.6;}
+            
+.sitin{
+  flex: 33.33%;
+  padding: 5px;
+  background-color: #FDC36B;
+}
+.forms{
+    background-color:#FDC36B;
+    padding: 5px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.logo img{
+    width: 300px;  
+    height: auto;   
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navi a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+header .navi a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .navi a:hover{
+    background: #86c3b0;
+}
+
+footer{ 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open sans ";
+    padding-top: 10px;
+    color: white;
+}
+.footer-contacts {
+    padding-left: 10px;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    text-align: left;
+
+}
+.footer-contacts a{
+    color: #86c3b0;
+}
+             </style>
+    </head>
+    <body>
+        </div><header>
+            <h2> <a href="TheGrowingPlace.html" class="logo"><img src="https://static.wixstatic.com/media/2672a1_c941eaa8dff84d19995a0b0e7ad58f9d~mv2.png/v1/fill/w_560,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TGP-Logo-Horizontal.png"></a></h2>
+            <div class="navi">
+                <a href="tgpProgramsPage.html" >Programs</a>
+                <a href="Extracurricular.html" >Extracurricular</a>
+                <a href="About-us.html">About</a>
+                
+            </div>
+        </header>
+        <br>
+            <div class="sitin">
+       <center> <img src="programPageIMG/Sitin.png" ></img></center>
+        </div>
+
+        <div class ="forms">
+            <center>
+                       <form method="POST" name="sitinform" style="color:#D65D25" action="email.php">
+                <label for="fname" style="font-family: Arial, Helvetica, sans-serif">&nbsp; Name of Parent: </label>
+                <input type="text" id="fname" name="fname" value="">
+                <label for="lname" style="font-family: Arial, Helvetica, sans-serif">&nbsp;Address:</label>
+                <input type="text" id="lname" name="lname" value="">
+                <label for="sname" style="font-family: Arial, Helvetica, sans-serif">&nbsp;Contact Number:</label>
+                <input type="text" id="sname" name="sname" value="">
+                <label for="tname" style="font-family: Arial, Helvetica, sans-serif">&nbsp;Name of Child:</label>
+                <input type="text" id="tname" name="tname" value="">
+                <label for="bname" style="font-family: Arial, Helvetica, sans-serif">&nbsp;Age:</label>
+                <input type="text" id="bname" name="bname" value="">
+                <input type="submit" name="submit" value="Submit">
+              </form>
+              </center>
+            </div>
+<br>
+<br>
+            <h2>
+                <center>
+                    "Excellence and growth through understanding and acknowledging youth."
+                </center>
+
+                <br>
+                <br>
+            </h2>
+<div class="row">
+    <div class="column">
+        <img src = "programPageIMG/nursery.png">
+
+    </div>
+    <div class = "column">
+        <img src = "programPageIMG/prekinder.png">
+    </div>
+    <div class = "column">
+        <img src = "programPageIMG/kinder.png">
+    </div>
+</div>
+<br>
+<center><img src = "programPageIMG/Schedule.png"></center>
+<br>
+<center><img src= "programPageIMG/schedule2.png"></center>
+    
+<footer>
+    <div class ="footer-contacts">
+        <ul>
+            <li>
+                <h3>The Growing Place Learning Center Inc.</h3>
+                <br>
+                Facebook: <a href="https://www.facebook.com/thegrowingplace/" target="_blank">https://www.facebook.com/thegrowingplace/</a> 
+                <br>
+                Email: <a href="thegrowingplaceph@gmail.com" target="_blank">thegrowingplaceph@gmail.com</a>
+                <br>
+                Telephone No.: +89389536
+            </li>
+        </ul>
+    </div>
+    </footer>
+
+    </body>
+</html>
